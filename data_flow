@@ -1,0 +1,19 @@
+digraph G {
+	Answers -> Professionals
+	Questions -> Answers
+	"Question Score" -> Questions
+	"Answer Score" -> Answers
+	Emails -> Answers
+	Emails -> Matches
+	Answers -> Comments
+	Questions -> Comments
+	Questions -> "Question Tags"
+	Students -> "Group Memberships"
+	Students -> "School Memberships"
+	"Tag Users" -> "Group Memberships"
+	"Tag Users" -> Tags
+	"Tag Questions" -> Tags
+	Questions -> "Tag Questions"
+	"Group Memberships" -> Groups
+	Matches -> Questions
+}
